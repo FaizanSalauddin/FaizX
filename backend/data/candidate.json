@@ -1,0 +1,168 @@
+{
+    "personal_info": {
+        "name": "Faizan Salauddin",
+        "title": "B.Tech Student - Computer Science and Business Systems"
+    },
+    "professional_summary": "B.Tech student in Computer Science and Business Systems with hands-on experience developing full-stack web applications using the MERN stack. Familiar with Java, JavaScript, and SQL, with a strong foundation in data structures, object-oriented programming, and database management.",
+    "education": [
+        {
+            "institution": "Heritage Institute of Technology",
+            "degree": "B.Tech – Computer Science and Business Systems",
+            "duration": "2023 - 2027",
+            "cgpa": "7.98 / 10 up to 6th Semester"
+        },
+        {
+            "institution": "Shree Jain Vidyalaya",
+            "qualification": "W.B.C.H.S.E Class XII",
+            "year": "2022 - 2023",
+            "percentage": "82.4%"
+        },
+        {
+            "institution": "Tantia High School",
+            "qualification": "W.B.B.S.E Class X",
+            "year": "2020 - 2021",
+            "percentage": "87.62%"
+        }
+    ],
+    "technical_skills": {
+        "languages": [
+            "Java",
+            "JavaScript",
+            "SQL"
+        ],
+        "frontend": [
+            "HTML5",
+            "CSS3",
+            "React.js",
+            "Tailwind CSS"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js"
+        ],
+        "database": [
+            "MongoDB"
+        ],
+        "tools_and_technologies": [
+            "Git",
+            "GitHub",
+            "REST APIs",
+            "JWT",
+            "Vercel",
+            "Render",
+            "Cloudinary"
+        ]
+    },
+    "projects": [
+        {
+            "name": "Ashmir Mocktails",
+            "type": "Business Web Application",
+            "date": "08/2026",
+            "tech_stack": [
+                "MongoDB",
+                "Express.js",
+                "React.js",
+                "Node.js",
+                "Tailwind CSS",
+                "JWT",
+                "Cloudinary"
+            ],
+            "intro": "A MERN-based website built for a mocktail and event-services business, covering everything from the public-facing menu to admin-side content management.",
+            "description": "Full-stack MERN web application for a mocktail and event-services business.",
+            "features": [
+                "Menu, services, gallery and event showcase",
+                "JWT authentication",
+                "bcrypt password hashing",
+                "Protected routes",
+                "CRUD-based admin management",
+                "MongoDB integration",
+                "Multer and Cloudinary image management",
+                "Validated event enquiry workflow",
+                "Structured pre-filled WhatsApp messages"
+            ],
+            "url": "https://ashmirmocktail.vercel.app/"
+        },
+        {
+            "name": "Al-Ansar Stores",
+            "type": "E-Commerce Platform",
+            "date": "12/2025 - 02/2026",
+            "tech_stack": [
+                "MongoDB",
+                "Express.js",
+                "React.js",
+                "Node.js",
+                "Tailwind CSS",
+                "Cloudinary",
+                "Vercel"
+            ],
+            "intro": "An online store for dry-fruit products with a complete shopping flow and an AI-assisted customer-support chatbot named Ansari.",
+            "description": "Full-stack e-commerce platform for dry-fruit products with an integrated AI customer-support chatbot.",
+            "features": [
+                "Product browsing",
+                "Email OTP authentication",
+                "JWT-based authorization",
+                "Product search",
+                "Cart",
+                "Checkout",
+                "Order tracking",
+                "AI-powered chatbot named Ansari",
+                "Admin dashboard",
+                "Product management",
+                "Inventory management",
+                "User management",
+                "Order management",
+                "Cloudinary image storage"
+            ],
+            "url": "https://al-ansar-dry-fruits-frontend.vercel.app/"
+        },
+        {
+            "name": "Thread Store",
+            "type": "Business Website",
+            "date": "06/2025 - 07/2025",
+            "tech_stack": [
+                "MongoDB",
+                "Express.js",
+                "React.js",
+                "Node.js",
+                "Tailwind CSS"
+            ],
+            "intro": "A responsive business website with category-based product listings and an admin panel for managing the catalogue.",
+            "description": "Business website with category-based product listings, product detail pages and a fully responsive layout.",
+            "features": [
+                "Product listing with categories",
+                "Product detail pages",
+                "Database-driven product data",
+                "Admin / product management",
+                "Fully responsive design"
+            ],
+            "url": "https://thread-store-kappa.vercel.app/"
+        }
+    ],
+    "achievements": [
+        "Solved 150+ Data Structures and Algorithms problems across LeetCode and GeeksforGeeks.",
+        "Achieved the HackerRank SQL Gold Badge."
+    ],
+    "hr_questions": {
+        "tell_me_about_yourself": {
+            "answer": "I am a B.Tech student in Computer Science and Business Systems at Heritage Institute of Technology. I have hands-on experience developing full-stack web applications using the MERN stack. I have built projects including an e-commerce platform and a business web application, working with technologies such as React.js, Node.js, Express.js, MongoDB, JWT and Cloudinary. I have also worked on an AI-powered chatbot for my e-commerce project. Along with development, I have solved 150+ DSA problems and achieved the HackerRank SQL Gold Badge."
+        },
+        "what_are_your_technical_skills": {
+            "answer": "My technical skills include Java, JavaScript and SQL. For frontend development I use HTML5, CSS3, React.js and Tailwind CSS. For backend development I have worked with Node.js and Express.js, and I use MongoDB for databases. I am also familiar with Git, GitHub, REST APIs, JWT, Vercel, Render and Cloudinary."
+        },
+        "tell_me_about_your_projects": {
+            "answer": "I have built three full-stack projects. Ashmir Mocktails is a MERN business web application with an admin dashboard, authentication, CRUD management and Cloudinary-based image management. Al-Ansar Stores is a full-stack e-commerce platform with authentication, product search, cart, checkout, order tracking, an admin dashboard and an AI-powered chatbot called Ansari. Thread Store is a responsive business website with category-based product listings and admin product management."
+        },
+        "tell_me_about_your_ecommerce_project": {
+            "answer": "Al-Ansar Stores is a full-stack e-commerce application built using MongoDB, Express.js, React.js and Node.js. It includes Email OTP authentication, JWT-based authorization, product search, cart, checkout and order tracking. I also implemented an AI-powered chatbot called Ansari to assist customers with product recommendations and information about dry fruit health benefits. The project also includes an admin dashboard for products, inventory, users and orders."
+        },
+        "what_is_your_educational_background": {
+            "answer": "I am pursuing a B.Tech in Computer Science and Business Systems from Heritage Institute of Technology from 2023 to 2027. My CGPA is 7.98 out of 10 up to the 6th semester."
+        },
+        "how_many_dsa_problems_have_you_solved": {
+            "answer": "I have solved 150+ Data Structures and Algorithms problems across LeetCode and GeeksforGeeks."
+        },
+        "do_you_have_experience_with_ai": {
+            "answer": "I have worked with an AI-powered chatbot called Ansari in my Al-Ansar Stores e-commerce project. The chatbot assists customers with product recommendations and information about dry fruit health benefits."
+        }
+    }
+}

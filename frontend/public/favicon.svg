@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Rich Metallic Gold Gradient -->
+    <linearGradient id="goldBright" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3A8"/>
+      <stop offset="20%" stop-color="#F2D06B"/>
+      <stop offset="50%" stop-color="#CFA43B"/>
+      <stop offset="80%" stop-color="#9E7623"/>
+      <stop offset="100%" stop-color="#6B4D10"/>
+    </linearGradient>
+
+    <!-- Secondary Gold/Bronze for Shading -->
+    <linearGradient id="goldDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B88E32"/>
+      <stop offset="50%" stop-color="#7A5818"/>
+      <stop offset="100%" stop-color="#3D2905"/>
+    </linearGradient>
+
+    <!-- Ring Gold Gradient -->
+    <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0A2"/>
+      <stop offset="30%" stop-color="#DCAE42"/>
+      <stop offset="70%" stop-color="#8C631B"/>
+      <stop offset="100%" stop-color="#473108"/>
+    </linearGradient>
+
+    <!-- Glow Filter Optimized for Favicon Visibility -->
+    <filter id="ringGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Shadow for Monogram 3D Effect -->
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Double Golden Ring Crest (Transparent Background) -->
+  <g filter="url(#ringGlow)">
+    <circle cx="250" cy="250" r="230" fill="none" stroke="url(#goldRing)" stroke-width="12"/>
+    <circle cx="250" cy="250" r="212" fill="none" stroke="url(#goldRing)" stroke-width="4" opacity="0.9"/>
+  </g>
+
+  <!-- CENTERED EMBLEM MONOGRAM (F + X) SCALED FOR FAVICON VISIBILITY -->
+  <g filter="url(#dropShadow)" transform="translate(0, 0) scale(1.18)" transform-origin="250 250">
+    
+    <!-- Top Flying Wing Bar of 'F' -->
+    <path d="M 142,112 
+             C 142,112 148,148 185,152 
+             L 335,152 
+             L 300,190 
+             L 182,190 
+             C 152,190 142,160 142,112 Z" 
+          fill="url(#goldBright)"/>
+
+    <!-- Left Curved Vertical Body / Stem of 'F' -->
+    <path d="M 142,192 
+             C 155,192 182,195 182,220 
+             L 182,330 
+             L 142,330 
+             Z" 
+          fill="url(#goldBright)"/>
+
+    <!-- Middle Horizontal Bar of 'F' -->
+    <path d="M 182,192 
+             L 280,192 
+             L 252,228 
+             L 182,228 
+             Z" 
+          fill="url(#goldDark)"/>
+
+    <!-- Interlocking 'X' - Back Slash (Top-Right to Bottom-Left) -->
+    <path d="M 310,222 
+             L 188,330 
+             L 230,330 
+             L 352,222 
+             Z" 
+          fill="url(#goldDark)"/>
+
+    <!-- Interlocking 'X' - Front Slash (Top-Left to Bottom-Right) -->
+    <path d="M 230,252 
+             L 352,330 
+             L 310,330 
+             L 188,252 
+             Z" 
+          fill="url(#goldBright)"/>
+  </g>
+</svg>
