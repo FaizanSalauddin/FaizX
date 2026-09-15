@@ -308,6 +308,12 @@ def home():
         "message": "AI Portfolio Backend is running"
     }
 
+@app.get("/health")
+async def health_check():
+    return {
+        "status": "ok",
+        "service": "FaizX Backend"
+    }
 
 # =========================================================
 # CANDIDATE
